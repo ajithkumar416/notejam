@@ -15,10 +15,10 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'notejam.db',
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': '',
+        'NAME': 'qwiklabs-gcp-00-5f7f5f2a04b3:us-central1:sql',
+        'USER': 'sql',
+        'PASSWORD': 'sql',
+        'HOST': '35.224.201.219',
         'PORT': '',
     }
 }
